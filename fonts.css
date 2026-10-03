@@ -1,0 +1,17 @@
+.navbar-brand,
+.nav-link,
+.sub-header-text {
+  color: #fff;
+}
+
+.big-h1 {
+  font-size: clamp(2.5rem, 5vw, 5rem);
+}
+
+.big-text {
+  font-size: clamp(1rem, 2vw, 25px);
+}
+
+.hero-text h1 {
+  margin-bottom: 1rem;
+}
