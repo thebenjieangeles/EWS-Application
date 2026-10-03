@@ -16,6 +16,11 @@
   margin-bottom: 1rem;
 }
 
-/* .normal-texts {
+.normal-texts {
   font-size: clamp(1.125rem, 1.3vw, 1.25rem);
-} */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
