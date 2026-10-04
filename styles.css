@@ -257,18 +257,33 @@ header {
   }
 
   .incentive-text {
-    margin-left: 0;
+    margin-left: 5rem;
     margin-bottom: 1rem;
   }
 
   .incentive-text-p {
-    margin-left: 0;
+    margin-left: 5rem;
     margin-bottom: 2.5rem;
   }
 
   .incentives {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .incentives .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .incentives .col {
+    width: auto;
+  }
+
+  .incentives .card {
+    width: 20rem !important;
   }
 
   .call-to-action {
