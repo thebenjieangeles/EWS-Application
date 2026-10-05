@@ -99,29 +99,37 @@ header {
   padding-top: 75px;
 }
 
-.offers-container {
-  position: relative;
-  overflow: hidden;
-  background-image: url("./assets/hero-image.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;
-  z-index: 1;
+.offers .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.offers-container::before {
+.offers .card-img-overlay p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offers .card {
+  position: relative;
+}
+
+.offers .card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
 }
 
-.offers-content {
-  position: relative;
-  z-index: 1;
-  padding: clamp(6rem, 15vw, 20rem) clamp(2rem, 8vw, 10rem);
+.offers .card-img {
+  display: block;
+}
+
+.offers .card-img-overlay {
+  z-index: 2;
 }
 
 .incentive-text {
