@@ -95,6 +95,15 @@ header {
   }
 } */
 
+.hpe-private-lounge .col-lg-4 {
+  text-align: center;
+}
+
+.hpe-private-lounge .col-lg-4 img {
+  max-width: 100%;
+  height: auto;
+}
+
 .offers {
   padding-top: 75px;
 }
@@ -151,6 +160,15 @@ header {
 .call-to-action {
   padding-top: 75px;
   padding-bottom: 20px;
+}
+
+.call-to-action .col-lg-4 {
+  text-align: center;
+}
+
+.call-to-action .col-lg-4 img {
+  max-width: 100%;
+  height: auto;
 }
 
 .contact {
@@ -261,7 +279,7 @@ header {
   }
 
   .container-fluid {
-    margin-top: 0;
+    margin-top: -10;
   }
 
   .hero-section {
@@ -301,11 +319,33 @@ header {
   }
 
   .offers {
-    padding-top: 40px;
+    padding-top: 2px;
   }
 
-  .offers-content {
-    padding: 5rem 1.5rem;
+  .offers .card-img {
+    min-height: 700px;
+    object-fit: cover;
+  }
+
+  .offers .card-img-overlay {
+    position: absolute;
+    inset: 0;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .offers .card-img-overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .offers .card-img-overlay p {
+    width: 100%;
+    margin: 0;
+    font-size: 1rem;
   }
 
   .incentive-text {
